@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ((('ibase=water; obase=bestchol; $WATER' | bc ) + ('ibase=stir; obase=bestchol; $STIR' | bc)))
+echo ((('ibase=water; obase=bestchol; WATER' | bc ) + ('ibase=stir; obase=bestchol; STIR' | bc)))
